@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>PassGen - Create Strong Random Passwords in Seconds.</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
-    <h1>PassGen</h1>
+    <section class="hero is-dark is-fullheight is-bold">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              PassGen.
+            </h1>
+            <h2 class="subtitle">
+                Easy Password generator
+            </h2>
+
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-large" type="text" readonly>
+                    <span class="icon is-medium is-left">
+                    <i class="fas fa-key fa-lg"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="field is-grouped is-grouped-centered">
+            <p class="control">
+                <a class="button is-success is-medium is-fullwidth is-outlined">
+                Copy
+                </a>
+            </p>
+            <p class="control">
+                <a class="button is-light is-medium is-fullwidth is-outlined">
+                Re-Generate
+                </a>
+            </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <script src="main.js"></script>
 </body>
