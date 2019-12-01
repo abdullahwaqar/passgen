@@ -18,15 +18,17 @@
             <h2 class="subtitle">
                 Easy Password generator
             </h2>
-
+            <div class="container">
             <div class="field">
                 <div class="control has-icons-left has-icons-right">
-                    <input class="input is-large" type="text" readonly>
+                    <input id="result" class="input is-medium" type="text" readonly>
                     <span class="icon is-medium is-left">
                     <i class="fas fa-key fa-lg"></i>
                     </span>
                 </div>
             </div>
+            <input id="passwordLength" style="width: 60%;" class="slider is-fullwidth is-large is-danger has-output is-circle" step="1" min="8" max="40" value="20" type="range">
+            <span id="lengthIndicator" class="tag is-info is-light is-medium">8</span>
             <div class="field is-grouped is-grouped-centered">
             <p class="control">
                 <a class="button is-success is-medium is-fullwidth is-outlined">
@@ -34,12 +36,13 @@
                 </a>
             </p>
             <p class="control">
-                <a class="button is-light is-medium is-fullwidth is-outlined">
+                <a id="regen" class="button is-light is-medium is-fullwidth is-outlined">
                 Re-Generate
                 </a>
             </p>
             </div>
           </div>
+        </div>
         </div>
       </section>
 
